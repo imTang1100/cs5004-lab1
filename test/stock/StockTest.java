@@ -114,8 +114,8 @@ public class StockTest {
     adidas.setCurrentPrice(11.05);
     sony.setCurrentPrice(4.05);
     System.out.println(sony.toString());
-    assertEquals("Nike-CO Current Price: $ 16.88\nGain/Loss: -6.64%",nike.toString());
-    assertEquals("Adidas Current Price: $ 11.05\nGain/Loss: 21.96%",adidas.toString());
-    assertEquals("Sony Current Price: $ 4.05\nGain/Loss: -80.91%",sony.toString());
+    assertEquals("Nike-CO Current Price: $ 16.88\n Gain/Loss: -6.64%",nike.toString());
+    assertEquals("Adidas Current Price: $ 11.05\n Gain/Loss: 21.96%",adidas.toString());
+    assertEquals("Sony Current Price: $ 4.05\n Gain/Loss: -80.91%",sony.toString());
   }
 }

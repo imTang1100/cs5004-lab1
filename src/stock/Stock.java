@@ -90,7 +90,7 @@ public class Stock {
   public String toString() {
     DecimalFormat money = new DecimalFormat("$ 0.00");
     DecimalFormat percent = new DecimalFormat("0.00%");
-    return this.name + " Current Price: " + money.format(this.currentPrice) + "\n"
+    return this.name + " Current Price: " + money.format(this.currentPrice) + "\n "
         + "Gain/Loss: " + percent.format(this.getChangePercent());
   }
 
